@@ -1,0 +1,21 @@
+{
+  "dataset_name": "Ukraine Primary Enrollment and GDP per Capita (2001–2020)",
+  "description": "This dataset contains yearly primary school enrollment counts and GDP per capita values for Ukraine from 2001 to 2020.",
+  "columns": [
+    {
+      "name": "Year",
+      "data_type": "integer",
+      "description": "Calendar year for which the enrollment and GDP data are reported."
+    },
+    {
+      "name": "Primary Enrollment",
+      "data_type": "float",
+      "description": "Total number of students enrolled in primary education in Ukraine for the given year. Missing values indicate years where enrollment data was not reported."
+    },
+    {
+      "name": "GDP",
+      "data_type": "float",
+      "description": "Gross Domestic Product per capita for Ukraine measured in constant 2015 U.S. dollars."
+    }
+  ]
+}
